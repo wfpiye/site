@@ -1008,6 +1008,9 @@ header.major > :last-child, h2.major {
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; }
 
+.arabic header.major > :last-child, .arabic h2.major {
+  padding: 0 0 0.5em 0; }
+
 header.main > :last-child {
   margin: 0 0 1em 0; }
 
@@ -1305,6 +1308,9 @@ ul.actions {
   list-style: none;
   margin-left: -1em;
   padding-left: 0; }
+.arabic ul.actions{
+  float: right;
+}
   ul.actions li {
     padding: 0 0 0 1em;
     vertical-align: middle; }
