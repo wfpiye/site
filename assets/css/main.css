@@ -1002,6 +1002,10 @@ header p {
   letter-spacing: 0.075em;
   margin-top: -0.5em; }
 
+.arabic header p {
+  letter-spacing: 0;
+}
+
 header.major > :last-child, h2.major {
   border-bottom: solid 3px #1D70B7;
   display: inline-block;
@@ -1521,6 +1525,16 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap; }
+
+  .arabic input[type="submit"],
+  .arabic input[type="reset"],
+  .arabic input[type="button"],
+  .arabic button,
+  .arabic .button {
+    font-family: Cairo, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0em; }
+
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
@@ -2103,13 +2117,14 @@ button,
   .languages a {
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .languages a:hover {
     border: none;
   }
   a.arabic {
     font-family: 'Cairo', sans-serif;
+    font-size: 1.5em;
   }
   @media screen and (max-width: 1680px) {
     }
@@ -2223,6 +2238,16 @@ button,
   margin-bottom: 0;
   padding: 0;
   text-transform: uppercase; }
+
+ .arabic #menu ul,
+ .arabic #menu h2 {
+  font-family: Cairo, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em; }
+  .arabic #menu ul {
+    color: #777777;
+  }
+
   #menu ul a, #menu ul span {
     border-bottom: 0;
     color: inherit;
