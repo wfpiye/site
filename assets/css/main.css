@@ -2093,10 +2093,6 @@ button,
   #header .icons, .languages {
     text-align: right; 
     padding-top: 1.5em;}
-  .languages{
-    margin-left: auto; 
-    margin-right: 0;
-  }
   .languages a {
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
@@ -2303,7 +2299,7 @@ button,
 
 /* Page title */
 .page-title {
-  margin-top: 6em;
+  margin-top: 2em;
 }
 .top {
   margin-bottom: 1em;
