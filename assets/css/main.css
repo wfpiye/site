@@ -1197,31 +1197,6 @@ input[type="radio"] + label:before {
     border-radius: 0;
     padding: 0; }
 
-/* Icon */
-.icon {
-  text-decoration: none;
-  border-bottom: none;
-  position: relative; }
-  .icon:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 400; }
-  .icon > .label {
-    display: none; }
-  .icon:before {
-    line-height: inherit; }
-  .icon.solid:before {
-    font-weight: 900; }
-  .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands'; }
-
 /* Image */
 .image {
   border-radius: 0.375em;
@@ -2314,6 +2289,32 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
+/* Icon */
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+  display: inline !important;
+  font-size: 1.5em !important; }
+  .icon:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    text-transform: none !important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400; }
+  .icon > .label {
+    display: none !important; }
+  .icon:before {
+    line-height: inherit; }
+  .icon.solid:before {
+    font-weight: 900; }
+  .icon.brands:before {
+    font-family: 'Font Awesome 5 Brands'; }
 
 /* Video Embed */
 .embed-container {
